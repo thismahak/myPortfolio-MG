@@ -413,6 +413,12 @@ a{
 #project10 { background-image: url(./Images/Modern-Chair.png); }
 #project11 { background-image: url(./Images/Form.png); }
 #project12 { background-image: url(./Images/Razorpay.png); }
+#project14 { background-image: url(./Images/EMP.png); }
+
+#project15 { background-image: url(./Images/LocalStore.png); }
+#project16 { background-image: url(./Images/TripGenie.png); }
+
+#project17 { background-image: url(./Images/notemark.png); }
 
 @media (max-width: 1300px) {
   .page-header {
