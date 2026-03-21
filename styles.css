@@ -518,6 +518,37 @@ a{
 .skill-subHeading p{
     margin:15px 0;
 }
+.intro-text{
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+.tech-stack{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.stack-item{
+    background:#111111;
+    border-left:4px solid var(--bgOrange);
+    padding:12px 15px;
+    border-radius:6px;
+    font-size:16px;
+    transition:all 0.3s;
+}
+
+.stack-item span{
+    display:block;
+    color:#d1d1d1;
+    margin-top:3px;
+}
+
+.stack-item:hover{
+    transform:translateX(5px);
+    background:#1a1a1a;
+}
 .contactus-form-container{
     width:100%;
     background-color: #1f1f1f;
@@ -619,4 +650,50 @@ footer{
 .emailfooter{
     color: white;
     font-size:larger;
+}
+.education-section{
+    background-color: black;
+    padding: 4rem 0;
+}
+
+.education-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-card{
+    background: rgb(209, 204, 204);
+    padding: 20px 25px;
+    border-radius: 10px;
+    border-left: 5px solid #e84949;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s;
+}
+
+.education-card:hover{
+    transform: translateY(-4px);
+}
+
+.education-card h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.edu-school{
+    font-size: 18px;
+    color: #3f3e3e;
+}
+
+.edu-extra{
+    font-size: 15px;
+    color: #5a5959;
+}
+
+.edu-year{
+    font-size: 14px;
+    color: #e84949;
+    font-weight: 500;
 }
